@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.navbar{
+    background-color:#ffb9a1;
+  padding-top: 40px;
+  width: 100%;
+  height: 95px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo {
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    padding-right: 200px;
+    padding-left: 60px;
+    
+}
+ .logo:hover{
+    color: black;
+    background-color: #ffb9a1;
+ }
+li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+li a{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 25px;
+    text-decoration : none;
+    
+}
+a:hover{
+    padding: 9px 9px 9px 9px;
+    background-color: white;
+    color: #f1ac95;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+ul{
+    padding-right: 35px;
+    
+}
+button{
+    border: none;
+}
+.btn{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: #ffb9a1;
+    color: black;
+    border-radius: 10px;
+    padding: 8px 15px 8px 15px;
+    border-color: #ffffff;
+    border-style: solid;
+   cursor: pointer;
+   transition: padding 4s 3s 4s 3s;
+   align-items: center;
+   text-decoration: none;
+}
+.btn:hover{
+    padding: 9px 9px 9px 9px;
+    background-color: white;
+    color: #f1ac95;
+    transition: 1s;
+}
+
+#home{
+    background-image:  url("../images/background.jpeg");
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 350px;
+    text-align: start;
+    padding: 300px 150px 150px 150px ;
+    
+}
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 50px;
+  font-style: italic;
+  
+  
+}
+#three{
+    padding-top: 15px;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: start;
+}
+.container{
+max-width: 1170px;
+margin: auto;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+    background-color: #ffccb3;
+    padding-left: 100px;
+    
+
+}
+.footer-col{
+    width: 25%;
+    
+}
+ h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+   
+
+} 
+.social-links{
+    padding-top: 3px;
+}
+
+.one{
+    padding-left: 3.5px;
+}
+a li {
+    color: white;
+   text-transform: lowercase;
+   text-decoration:white underline;
+   font-size: large;
+}
+
+
+
+
+
